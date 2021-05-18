@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  color: rgba(0, 0, 0, 0.8);
+  word-wrap: break-word;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}

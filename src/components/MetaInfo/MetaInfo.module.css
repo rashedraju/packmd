@@ -1,0 +1,44 @@
+.InstallCode {
+  border: 1px solid #cfd6cf;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.InstallCode:first-child {
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.InstallCode code {
+  flex: 1;
+  cursor: pointer;
+}
+
+.InstallCode svg,
+.InstallCode code {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.InstallCode:hover {
+  background-color: #dbffdb;
+}
+
+.CopyMsg {
+  position: fixed;
+  top: 1rem;
+  right: -1rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: all 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Show {
+  opacity: 1;
+  visibility: visible;
+  right: 1.5rem;
+}

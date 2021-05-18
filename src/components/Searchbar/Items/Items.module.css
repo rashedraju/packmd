@@ -1,0 +1,15 @@
+.SuggestionItem {
+  color: #fff;
+  border: 1px solid #048662;
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+}
+.SuggestionName {
+  display: block;
+  color: #01e399;
+}
+
+.SuggestionName:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

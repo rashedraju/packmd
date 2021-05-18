@@ -1,0 +1,11 @@
+.Item {
+  color: #cb3837;
+  padding: 1rem;
+  padding-left: 0;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: inline;
+}
+.Item:hover {
+  color: #000;
+}

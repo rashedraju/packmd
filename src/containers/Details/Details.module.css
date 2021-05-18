@@ -1,0 +1,11 @@
+.Container {
+  composes: Container from "../App/App.module.css";
+}
+
+.Searchbar {
+  width: 100vw;
+  height: 70vh;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  position: relative;
+}

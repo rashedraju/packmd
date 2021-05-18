@@ -1,0 +1,68 @@
+.VersionInfo {
+  display: flex;
+}
+
+.VersionInfo li {
+  margin: 0 1rem;
+}
+
+.Tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.TabItem {
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.Readme {
+  composes: TabItem;
+  border-bottom: 0.2rem solid #c99701;
+}
+.Readme a {
+  color: #886701;
+}
+
+.Readme:hover {
+  background: #c9970138;
+}
+
+.Dependencies {
+  composes: TabItem;
+  color: #bb2e3e;
+  border-bottom: 0.2rem solid #bb2e3e;
+}
+
+.Dependencies a {
+  color: #bb2e3e;
+}
+
+.Dependencies:hover {
+  background: #8866014d;
+}
+
+.Versions {
+  composes: TabItem;
+  border-bottom: 0.2rem solid #146a90;
+}
+
+.Versions a {
+  color: #146a90;
+}
+
+.Versions:hover {
+  background: #146b903b;
+}
+
+.DetaillsWrapper ul {
+  padding-left: 1rem;
+}
+.DetaillsWrapper ul li a {
+  color: #cb3837;
+}
