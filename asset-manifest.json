@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pack-finder/static/css/main.6e714a27.chunk.css",
+    "main.js": "/pack-finder/static/js/main.ef313935.chunk.js",
+    "main.js.map": "/pack-finder/static/js/main.ef313935.chunk.js.map",
+    "runtime-main.js": "/pack-finder/static/js/runtime-main.be5ed666.js",
+    "runtime-main.js.map": "/pack-finder/static/js/runtime-main.be5ed666.js.map",
+    "static/css/2.039bb34a.chunk.css": "/pack-finder/static/css/2.039bb34a.chunk.css",
+    "static/js/2.00378919.chunk.js": "/pack-finder/static/js/2.00378919.chunk.js",
+    "static/js/2.00378919.chunk.js.map": "/pack-finder/static/js/2.00378919.chunk.js.map",
+    "index.html": "/pack-finder/index.html",
+    "precache-manifest.712eb34d3ef759414ebd2a9683d66952.js": "/pack-finder/precache-manifest.712eb34d3ef759414ebd2a9683d66952.js",
+    "service-worker.js": "/pack-finder/service-worker.js",
+    "static/css/2.039bb34a.chunk.css.map": "/pack-finder/static/css/2.039bb34a.chunk.css.map",
+    "static/css/main.6e714a27.chunk.css.map": "/pack-finder/static/css/main.6e714a27.chunk.css.map",
+    "static/js/2.00378919.chunk.js.LICENSE.txt": "/pack-finder/static/js/2.00378919.chunk.js.LICENSE.txt",
+    "static/media/Particles.module.css": "/pack-finder/static/media/background.84c891fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be5ed666.js",
+    "static/css/2.039bb34a.chunk.css",
+    "static/js/2.00378919.chunk.js",
+    "static/css/main.6e714a27.chunk.css",
+    "static/js/main.ef313935.chunk.js"
+  ]
+}
