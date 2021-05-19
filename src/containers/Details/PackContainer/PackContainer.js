@@ -49,7 +49,7 @@ const PackContainer = () => {
                     dependencies,
                     devDependencies,
                     unpackedSize: findSize(curVersion?.dist.unpackedSize),
-                    fileCount: curVersion?.dist.fileCount,
+                    fileCount: curVersion?.dist.fileCount.toString(),
                     license: response.data.license,
                 };
                 setPackInfo(data);

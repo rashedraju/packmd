@@ -41,11 +41,12 @@ export const findLastReleaseDate = (dateObj = null) => {
 };
 
 export const findSize = (byte = 0) => {
-    const size = parseInt(byte, 10) / 100;
-    if (byte >= 1000) {
-        return `${Math.floor(size)} KB`;
+    const size = parseInt(byte, 10) / 1000;
+    const decimal = parseInt(byte, 10) % 1000;
+    if (size >= 1000) {
+        return decimal ? `${(size / 1000).toFixed(2)} MB` : `${size / 1000} MB`;
     }
-    return `${size.toFixed(2)} KB`;
+    return `${Math.floor(size)} KB`;
 };
 
 export const parseRepoUrl = (url = '') => url.replace(/git\+|\.git/g, '');
