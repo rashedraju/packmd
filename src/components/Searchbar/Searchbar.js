@@ -52,7 +52,7 @@ const Searchbar = () => {
     if (error) suggestionElements = <Error msg="Something went wrong." />;
     const searchPackHandler = (e) => {
         e.preventDefault();
-        history.push(`/package/${query}`);
+        history.push(`/package/${query.toLowerCase()}`);
     };
 
     return (

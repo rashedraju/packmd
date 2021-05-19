@@ -6,7 +6,7 @@ import App from './containers/App/App';
 import Details from './containers/Details/Details';
 
 const app = (
-    <Router>
+    <Router basename="/pack-finder">
         <Route exact path="/" component={App} />
         <Route exact path="/package/:name" component={Details} />
     </Router>
