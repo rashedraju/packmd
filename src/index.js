@@ -6,7 +6,7 @@ import Home from './containers/Home/Home';
 import Details from './containers/Details/Details';
 
 const app = (
-    <Router basename="/">
+    <Router basename="/packmd">
         <Route exact path="/" component={Home} />
         <Route exact path="/package/:name" component={Details} />
     </Router>
