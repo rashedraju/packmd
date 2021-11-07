@@ -1,5 +1,5 @@
 .Container {
-  composes: Container from "../App/App.module.css";
+  composes: Container from "../Home/Home.module.css";
 }
 
 .Searchbar {

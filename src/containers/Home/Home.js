@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './App.module.css';
+import styles from './Home.module.css';
 import Particles from '../../components/Particles/Particles';
 import Searchbar from '../../components/Searchbar/Searchbar';
 
-const App = () => (
+const Home = () => (
     <>
-        <div className={styles.App}>
+        <div className={styles.Home}>
             <div className={`container ${styles.Container}`}>
                 <Searchbar />
             </div>
@@ -14,4 +14,4 @@ const App = () => (
     </>
 );
 
-export default App;
+export default Home;

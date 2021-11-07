@@ -23,7 +23,6 @@ const Searchbar = () => {
             .get(`${SUGGESTIONSURL}${SearchQuery}`)
             .then((response) => {
                 setSuggestions(response.data);
-                // console.log(response);
                 setError(false);
                 setLoading(false);
             })
@@ -50,6 +49,7 @@ const Searchbar = () => {
     if (suggestions) suggestionElements = <Items suggestions={suggestions} />;
     if (loading) suggestionElements = <Loader />;
     if (error) suggestionElements = <Error msg="Something went wrong." />;
+
     const searchPackHandler = (e) => {
         e.preventDefault();
         history.push(`/package/${query.toLowerCase()}`);
